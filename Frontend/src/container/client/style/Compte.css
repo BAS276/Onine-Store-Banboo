@@ -1,0 +1,14 @@
+.Compte{
+    margin-top: 60px;
+}
+.Compte form{
+    margin-top: 100px;
+    padding-top: 20px;
+    width: 90%;
+    background-color: rgba(217, 217, 217, 0.304);
+
+}
+.Compte button{
+    margin: 10px 0px;
+    width: 130px;
+}

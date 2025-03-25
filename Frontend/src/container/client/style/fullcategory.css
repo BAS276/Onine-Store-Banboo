@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+}
+.cate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.category {
+    width: 120px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px;
+}
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.category img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.category h4 {
+    font-size: 1.1em;
+    color: #333;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+

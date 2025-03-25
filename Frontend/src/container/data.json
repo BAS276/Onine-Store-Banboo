@@ -1,0 +1,34 @@
+{
+    "Category": [
+        {
+            "id": 1,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202410?wid=1200&hei=1000&fmt=p-jpg&qlt=95&.v=1728342374518",
+            "title": "Laptops"
+        },
+        {
+            "id": 2,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202409_GEO_EMEA?wid=400&hei=260&fmt=png-alpha&.v=1723857138464",
+            "title": "Phones"
+        },
+        {
+            "id":3,
+            "image": "https://i.pinimg.com/1200x/89/e3/77/89e3778f1326cc9493830e3e2e9a64c9.jpg",
+            "title": "Earbuds"
+        },
+        {
+            "id": 4,
+            "image": "https://i.pinimg.com/564x/37/a8/ae/37a8ae2095512429d5d0ffa5d8675378.jpg",
+            "title": "Smartwatche"
+        },
+        {
+            "id": 5,
+            "image": "https://i.pinimg.com/1200x/0f/29/65/0f2965392fdc761d759f5727748360a2.jpg",
+            "title": "Consoles"
+        },
+        {
+            "id": 6,
+            "image": "https://i.pinimg.com/1200x/68/12/33/681233d4d211f320af88c307da19d823.jpg",
+            "title": "Accesrise"
+        }
+    ]
+}

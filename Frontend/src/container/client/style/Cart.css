@@ -1,0 +1,120 @@
+.cart {
+    margin-top: 70px;
+    
+}
+
+.cart-item {
+
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+/* Style pour l'image du produit dans le panier */
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Style pour les détails du produit (nom, prix, quantité, etc.) */
+.cart-item-details {
+    flex: 1; /* Prend tout l'espace disponible */
+}
+
+.cart-item-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333333;
+}
+
+.cart-item-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+/* Style pour le bouton de suppression */
+.remove-item {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-item:hover {
+    background-color: #ff7700;
+    transform: scale(1.05);
+}
+
+.remove-item:active {
+    transform: scale(0.95);
+}
+
+/* Style pour les actions du panier */
+.cart-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Style pour le bouton de vider le panier */
+.clear-cart {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 10px;
+}
+
+.clear-cart:hover {
+    background-color: #ff7700;
+    transform: scale(1.05);
+}
+
+.clear-cart:active {
+    transform: scale(0.95);
+}
+
+
+.Totalprice{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #000000;
+    color: #ccc;
+}
+.Totalprice button{
+    padding: 10px 10px;
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    margin-right: 20px;
+    font-size: 16px;
+}

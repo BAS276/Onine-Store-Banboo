@@ -1,0 +1,592 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admin-container {
+    padding-top: 47px;
+    width: 100%;
+    margin-top: -40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+.H-logo{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #2b2c31;
+    z-index: 1;
+}
+.H-logo h1{
+    width: 20px;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 32px;
+    color: #ffffff;
+}
+.H-logo h1 span{
+    color: #aaaaaa;
+}
+.nnav {
+    position: fixed;
+    top: 55px;
+    width: 65px;
+    margin-top: 0px;
+    height: 100%;
+    text-align: center;
+    background-color: #2b2c31;
+}
+
+
+
+.admin-nav li {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: -31px;
+    border: solid 1px #ffffff;
+    background-color: hsla(0, 2%, 81%, 0.321);
+    border-radius: 50%  3px 50% 3px ;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1%;
+    list-style-type: none;
+}
+
+.admin-nav li:hover {
+    background-color: hsla(0, 2%, 81%, 0.821);
+}
+.logout{
+    position: absolute;
+    bottom: 65px;
+}
+.admin-nav li img {
+    margin: auto;
+    width: 35px;
+    margin-top: 5px;
+
+}
+
+.admin-content {
+    text-align: start;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 65px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+h2 {
+    color: #272729;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.Dashboard .contaner {
+    display: block;
+}
+
+.Dashboard .contaner div {
+    width: 95%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Dashboard .contaner .Rectangles-of-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles{
+    background-color: #ffffff;
+    width: 330px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles h3{
+
+    font-size: 24px;
+}
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles h5{
+    color: #6f717b;
+}
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles .icon img{
+    width: 120px;
+    height: 120px;
+
+}
+
+.Dashboard .contaner .Curves {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Dashboard .contaner .Curves .statement{
+    background-color: #ffffff;
+    
+    max-width: 830px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(214, 214, 214);
+}
+
+.Dashboard .contaner .Curves .Circular-statement{
+    background-color: #ffffff;
+    max-width: 510px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(214, 214, 214);
+}
+.Dashboard .contaner .Curves h3{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #4a4848;
+}
+.Dashboard .contaner .Products-Statement {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Dashboard .contaner .Products-Statement .stock-report{
+    width: 97%;
+    overflow-x: auto;
+    background-color: #ffffff;
+    max-width: 830px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(214, 214, 214);
+}
+
+.Dashboard .contaner .Products-Statement .best-seller{
+    background-color: #ffffff;
+    max-width: 510px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(214, 214, 214);
+}
+.Dashboard .contaner .Products-Statement .stock-report::-webkit-scrollbar {
+    display: none; 
+}
+.serche-add {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.serche-add input {
+    width: 80%;
+    border:solid 1px black;
+}
+
+.serche-add button {
+    cursor: pointer;
+    width: 100px;
+    background-color: #2b2c31;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.AddProductForm {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.AddProductForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+.AddProductForm label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    color: #555;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.AddProductForm input[type="text"],
+.AddProductForm input[type="email"],
+.AddProductForm input[type="number"],
+.AddProductForm input[type="url"],
+.AddProductForm input[type="password"],
+.AddProductForm textarea,
+.AddProductForm select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.custom-file-input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.custom-file-label {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 0rem;
+    color: #555;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-file-label:hover {
+    background-color: #02b869;
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.custom-file-input:focus + .custom-file-label {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+
+.image-url-field {
+    display: flex;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.add-image-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-image-button:hover {
+    background-color: #45a049;
+}
+
+.div-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-button button {
+    width: 49%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #2b2c31;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.AddProductForm button:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+
+.table-container {
+    width: 97%;
+    margin: 2rem auto;
+    overflow-x: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+thead {
+    background-color: #f9fafb;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+thead tr th {
+    padding: 12px;
+    color: #555;
+}
+
+tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+    background-color: #f7f7f7;
+}
+
+td {
+    padding: 12px;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+
+.status.active {
+    background-color: #34c38f;
+}
+
+.status.inactive {
+    background-color: #f46a6a;
+}
+
+.status.sale {
+    background-color: #5b73e8;
+}
+
+.status.bouncing {
+    background-color: #a173e8;
+}
+.Comfimed {
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #34c38f;
+    width: 40px;
+    padding: 10px;
+}
+.Btns-U-D {
+    display: flex;
+    width: 50px;
+}
+
+.Btns-U-D .Btn-U-D{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 2px 4px;
+    height: 45px;
+    width: 45px;
+}
+
+.Btns-U-D button img {
+    width: 25px;
+    height: 25px;
+    background-color: #2b2c31;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Btns-U-D button img:hover {
+    background-color: #434346;
+}
+
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles-1{
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles-2{
+    background-color: #3570fb;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles-3{
+    background-color: #34c38f;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.Dashboard .contaner .Rectangles-of-dashboard .Rectangles-4{
+    background-color: #c70c47;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.Add-New-Admin-btn{
+    text-align: end;
+    padding: 10px;
+}
+.Add-New-Admin-btn button{
+    height: 40px;
+    background-color: #272729;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.Add-New-Admin-btn button:hover{
+    height: 40px;
+    background-color: #363232;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.category-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.AddProductForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.div-button {
+    display: flex;
+    gap: 10px;
+}
+
+.cancel-button {
+    background-color: #ff4d4d;
+}
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status.Active {
+    background-color: #34c38f;
+    color: white;
+}
+
+.status.Inactive {
+    background-color: #f46a6a;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+@media (max-width: 850px) {
+    .featured-productsadmin .productadmin {
+        width: 100%;
+    }
+    .Dashboard div div {
+        width: 100%;
+    }
+}
+@media (max-width:750px) {
+    .admin-container {
+
+        margin-top: 0px;
+    }
+    .Status li{
+        width: 150px;
+
+    }
+}
+
+/* Cart.css */
+
+/* General cart container */
+.cart {
+height: 120vh;
+}
+
+/* Product details container */
+.product-details {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and text */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image */
+.product-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    object-fit: cover; /* Ensures image fits nicely */
+    border-radius: 5px;
+}
+
+/* Product text styling */
+.product-details h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Hover effect for product details */
+.product-details:hover {
+    border-color: #ff4d4d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-details {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .product-image {
+        width: 80px;
+        height: 80px;
+    }
+}
+

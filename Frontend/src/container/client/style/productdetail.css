@@ -1,0 +1,259 @@
+.contaner-product {
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.product-detail {
+    height: auto;
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    margin-top: 60px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin-bottom: 0px;
+}
+
+.product-images {
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.main-image {
+    max-width:  500px;
+    margin: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+}
+
+.thumbnail-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.thumbnail:hover {
+    border-color: #ff7700;
+}
+
+.product-info {
+    height: auto;
+    text-align: left;
+    margin-top: 0px;
+    flex: 2;
+    padding-left: 10px;
+}
+
+.product-info h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+.price {
+    color: #ff7700;
+    font-size: 38px;
+    font-weight: bold;
+}
+.oldprice {
+    color: #756868;
+    font-size: 24px;
+    font-weight: bold;
+}
+.oldprice span{
+    color: #ff2222;
+    font-size: 24px;
+    font-weight: bold;
+}
+.description {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #555;
+}
+
+.buttonContaner .add-to-cart img{
+    display: none;
+    width: 20px;
+}
+.product-detail .buy-now {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 3px;
+    margin-top: 25px;
+    width: 48%;
+    height: 45px;
+
+}
+
+.contite {
+    display: flex;
+    padding: auto;
+}
+
+
+.confirmation-form {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.confirmation-form h2 {
+    margin-bottom: 15px;
+    color: #ff7700;
+}
+
+.confirmation-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 5%;
+    width: 90%;
+}
+
+.confirmation-form input {
+    width: 98%;
+    height: 30px;
+    margin-right: 1%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: solid 1px rgb(190, 190, 190);
+}
+.confirmation-form .contiteform  {
+    margin-top: 5px;
+    width: 100%;
+
+}
+.confirmation-form .contiteform input {
+    width: 10%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: solid 1px rgb(190, 190, 190);
+    margin: 0px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.confirmation-form .contiteform .button {
+    height: 46px;
+    width: 10%;
+    font-size: 20px;
+}
+
+.confirm-button {
+    padding: 10px 20px;
+    background-color: #07ad5d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 66%;
+    height: 46px;
+
+}
+
+
+@media (max-width: 780px) {
+    .product-detail {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .product-images {
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .main-image {
+        max-height: 100%;
+        width: 100%;
+    }
+
+    .product-info {
+        order: 2;
+        padding-left: 0;
+        margin-top: 0px;
+    }
+
+    .product-info h2 {
+        margin-top:-10px ;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .price {
+        margin-top:-15px ;
+        font-size: 30px;
+    }
+
+    .oldprice span{
+        color: #ff2222;
+        font-size: 19px;
+    }
+
+    .description {
+        margin-top:-3px ;
+        font-size: 18px;
+    }
+    .confirmation-form .contiteform  {
+        margin-left: 2%;
+    }
+    .buttonContaner{
+        width: 100%;
+        padding-bottom: 7px;
+        padding-top: -20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        background-color: #ffffff;
+        z-index: 1;
+    }
+    .buttonContaner .buy-now{
+        margin-top: 10px;
+        width: 85%;
+        font-size: 20px;
+    }
+    .buttonContaner .add-to-cart{
+        margin-top: 10px;
+        width: 15%;
+        background-color: #1b1b1b;
+    }
+    .buttonContaner .add-to-cart:hover{
+        background-color: #474747;
+    }
+    .buttonContaner .add-to-cart img{
+        display: flex;
+        margin: auto;
+        width: 30px;
+    }
+    .buttonContaner .add-to-cart span{
+        display: none;
+        width: 30px;
+    }
+    .confirmation-form label {
+        margin: 10px 3.5%;
+    }
+}

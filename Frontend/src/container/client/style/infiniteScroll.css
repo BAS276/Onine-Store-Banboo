@@ -1,0 +1,46 @@
+
+.scroll-container {
+    margin-top: 40px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent 0%, black 128px, black calc(100% - 128px), transparent 100%);
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+.logos-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    animation: scroll 15s linear infinite;
+}
+
+.logos-list img {
+    max-width: none;
+    width: 80px;
+    height: auto;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@media (max-width: 968px) {
+    .scroll-container {
+        margin-top: 10px;
+    }
+    .logos-list img {
+        max-width: none;
+        width: 40px;
+        height: auto;
+    }
+}
